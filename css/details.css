@@ -1,0 +1,22 @@
+#details_side_div {
+    flex-basis: 38%;
+}
+.prodImg {
+  width: 100%;
+  height: auto;
+}
+#details_outer_div {
+  justify-content: space-between;
+  border: 1px solid rgba(40, 167, 69, 0.8);
+  flex-basis: 57%;
+}
+#details_main_div {
+    flex-basis: 60%;
+}
+#details_main_div, #details_side_div {
+    border: 1px solid blue;
+    padding: 1em;
+}
+.button_set {
+    padding-bottom: 1em;
+}

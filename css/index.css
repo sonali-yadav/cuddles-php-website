@@ -1,0 +1,66 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Oxygen', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#title {
+    color: #010101;
+}
+#title:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.center {
+    text-align: center;
+}
+.mynavbar {
+    background-color: rgba(222, 53, 135,0.8);
+}
+.myheading {
+    font: bold 2.5vw 'Pacifico', cursive;
+    padding: 0.5em 0 5px 0.5em;
+}
+#navlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.mycard {
+    border-radius: 8px;
+    border: 1px solid #cacaca;
+    box-shadow: 0 0 10px #cacaca;
+    margin: 2em;
+}
+.mysection {
+    border: 3px dashed rgba(16, 44, 87,1);
+    margin: 1em auto;
+    padding: 1em;
+    width: 98%;
+    border-radius: 8px;
+}
+.flexbox, .flex_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexbox  > div {
+    box-shadow: 0 0 10px #cacaca;
+    width: 17em;
+    margin: 2em;
+}
+.mycardimg {
+    height: 18em;
+    width: 16.8em;
+    /* border: 1px solid #cacaca; */
+}
+.mycardtitle {
+    height: 2em;
+}
+.mybtn {
+    width: 49%;
+}
